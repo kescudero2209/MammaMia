@@ -27,3 +27,12 @@ code {
 .ingredientsPizza{
   border-top: 1px solid black;
 }
+section{
+  display: flex;
+}
+.detailsPizza{
+  margin-left:2rem;
+}
+.productName{
+  border-bottom: 1px solid black;
+}
