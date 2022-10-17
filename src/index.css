@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.productsCards {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  flex-wrap: wrap;
+}
+.imgBanner{
+  width:100em;
+  height: 12rem;
+  margin-top:0em;
+  margin-bottom:2em;
+}
+.ingredientsPizza{
+  border-top: 1px solid black;
+}
