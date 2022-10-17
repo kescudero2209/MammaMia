@@ -1,15 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+section {
+  display: flex;
 }
 .productsCards {
   height: 300px;
@@ -18,21 +21,42 @@ code {
   gap: 10rem;
   flex-wrap: wrap;
 }
+.imageDetail {
+  width: 5em;
+  margin: 0em 1em 1em 1em;
+}
+.cartProducts {
+  padding: 1em;
+  display: flex;
+  border: 1px solid black;
+  gap:70rem;
+}
+
+.firstItem,.secondItem {
+  display: flex;
+
+}
+.priceProduct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productName{
+  border-bottom: 1px solid black;
+}
+.detailsPizza{
+  margin-left:2rem;
+}
+.ingredientsPizza{
+  border-top: 1px solid black;
+}
 .imgBanner{
   width:100em;
   height: 12rem;
   margin-top:0em;
   margin-bottom:2em;
 }
-.ingredientsPizza{
-  border-top: 1px solid black;
-}
-section{
-  display: flex;
-}
-.detailsPizza{
-  margin-left:2rem;
-}
-.productName{
-  border-bottom: 1px solid black;
+.totalPrice{
+  margin-right:1em;
 }
