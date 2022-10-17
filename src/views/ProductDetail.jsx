@@ -20,7 +20,7 @@ const ProductDetail = () => {
           <div key={i}>
             <section>
               <div>
-                <img src={product.img} alt="imagen de pizza"></img>
+                <img src={product.img} alt=""></img>
               </div>
               <div className="detailsPizza">
                 <h1 className="productName">{product.name}</h1>
@@ -33,7 +33,7 @@ const ProductDetail = () => {
                 <h1>Precio: ${product.price}</h1>
                 <Button
                 variant="primary"
-                onClick={() => addItemToCart()}
+                onClick={() => addItemToCart(product.id)}
               >
                 Añadir🛍️
               </Button>
